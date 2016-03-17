@@ -16,7 +16,7 @@ git remote add staging git@git.wpengine.com:$WPENGINE_ENVIRONMENT/$WPENGINE_INST
 git checkout -b temp
 # Install npm and the dependencies
 cd wp-content/themes/theme-name
-# Spped up npm install a little bit
+# Speed up npm install a little bit
 npm set progress=false
 npm config set registry http://registry.npmjs.org
 npm install
